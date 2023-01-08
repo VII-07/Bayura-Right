@@ -58,6 +58,12 @@ li{
 .home {
     padding-top: 80px;
 }
+#toCalculate{
+    width: 40vw;
+}
+#addGood{
+    width: 29.5vw;
+}
 
 .input {
     color: white;
@@ -75,6 +81,7 @@ li{
 }
 
 .btn {
+    margin-top: 20px;
     padding: 10px;
     font-size: 15px;
     color: orange;
@@ -112,12 +119,14 @@ li{
         font-size: 20px;
         font-weight: bold;
         color: white;
+        margin-bottom: 25px;
 
         &-2 {
             font-weight: bold;
             color: white;
             font-size: 25px;
             margin-bottom: 20px;
+            margin-top: 60px;
         }
     }
 }

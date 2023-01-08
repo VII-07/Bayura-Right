@@ -80,8 +80,8 @@ function ifAllNumbersAreTheSame(masif) {
                         // console.log('......................................................');
                         let output = `
                             <div class="output__card">
-                                <p class="output"> ${decimalNum1} треба помножити на код ${good.id}і.. </p>
-                                <p class="output">$${decimalNum2} треба помножити на код ${evenGood.id}</p>
+                                <p class="output">${decimalNum1} треба помножити на код ${good.id}і.. </p>
+                                <p class="output">${decimalNum2} треба помножити на код ${evenGood.id}</p>
                             </div>`;
                         outputWrapper.insertAdjacentHTML("afterbegin", output);
                     }

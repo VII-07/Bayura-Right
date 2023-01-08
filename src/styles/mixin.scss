@@ -5,11 +5,3 @@ $maxWidth: 1600;
 	$maxWidth: $maxWidth - 320;
 	font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
 }
-
-@mixin Description {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 150%;
-	color: #000000;
-	opacity: 0.6;
-}

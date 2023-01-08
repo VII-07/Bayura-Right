@@ -79,10 +79,10 @@ function ifAllNumbersAreTheSame(masif) {
                         // console.log(`Kod ${evenGood.id} треба помножити ${decimalNum2}`); // ось тут ділить залишок
                         // console.log('......................................................');
                         let output = `
-                        <div class="output__card">
-                            <p class="output"> Код ${good.id} треба помножити ${decimalNum1} і.. </p>
-                            <p class="output">Код ${evenGood.id} треба помножити ${decimalNum2}</p>
-                        </div>`;
+                            <div class="output__card">
+                                <p class="output"> ${decimalNum1} треба помножити на код ${good.id}і.. </p>
+                                <p class="output">$${decimalNum2} треба помножити на код ${evenGood.id}</p>
+                            </div>`;
                         outputWrapper.insertAdjacentHTML("afterbegin", output);
                     }
                 })
@@ -92,18 +92,18 @@ function ifAllNumbersAreTheSame(masif) {
     })
 
 
-//     masif.forEach(good => {
-//         let ost = kasa.value / good.price;
-//         if ((Number.isInteger(ost) || isDecimal(ost)) && ost < good.col) {
+    //     masif.forEach(good => {
+    //         let ost = kasa.value / good.price;
+    //         if ((Number.isInteger(ost) || isDecimal(ost)) && ost < good.col) {
 
-//             outputWrapper.innerHTML = '';
-//             let output = `
-// <div class="output__card">
-// <p class="output"> ${ost} треба помножити на код ${good.id}</p>
-// </div>`;
-//             outputWrapper.insertAdjacentHTML("afterbegin", output);
-//         }
-//     })
+    //             outputWrapper.innerHTML = '';
+    //             let output = `
+    // <div class="output__card">
+    // <p class="output"> ${ost} треба помножити на код ${good.id}</p>
+    // </div>`;
+    //             outputWrapper.insertAdjacentHTML("afterbegin", output);
+    //         }
+    //     })
 }
 
 
@@ -127,8 +127,8 @@ function calcValue() {
                             // console.log('......................................................');
                             let output = `
                             <div class="output__card">
-                                <p class="output"> Код ${good.id} треба помножити ${decimalNum1} і.. </p>
-                                <p class="output">Код ${evenGood.id} треба помножити ${decimalNum2}</p>
+                                <p class="output"> ${decimalNum1} треба помножити на код ${good.id}і.. </p>
+                                <p class="output">$${decimalNum2} треба помножити  ${evenGood.id}</p>
                             </div>`;
                             outputWrapper.insertAdjacentHTML("afterbegin", output);
                         }
